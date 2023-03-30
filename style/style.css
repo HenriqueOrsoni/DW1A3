@@ -21,6 +21,8 @@ img     {
  #div2 {
     justify-content: space-between;
     margin: 15px;
+    margin-left: 90px;
+    display: flex;
  }
  
  
@@ -51,6 +53,14 @@ img     {
  }
  
  p {
-   margin-left: 175px;
+   margin-left: 161px;
    font-weight: bold;
  }
+
+ #div3 {
+   justify-content: space-between;
+   margin: 15px;
+   margin-left: 90px;
+   display: flex;
+   flex-direction: column;
+}
