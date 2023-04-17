@@ -1,0 +1,10 @@
+* {
+    font-family: poppinsregular;
+    text-align: center;
+    background-color: rgb(158, 243, 208);
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
