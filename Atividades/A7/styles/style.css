@@ -7,4 +7,9 @@
 li {
     display: flex;
     flex-direction: column;
+    margin: 20px;
+}
+
+footer {
+    margin-top: 100px;
 }
