@@ -4,6 +4,10 @@
     background-color: rgb(158, 243, 208);
 }
 
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+}
 li {
     display: flex;
     flex-direction: column;
