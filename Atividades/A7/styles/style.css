@@ -12,6 +12,7 @@ body {
     margin-left: 150px;
     margin-right: 150px;
 }
+
 ul {
     display: flex;
     flex-direction: column;
@@ -19,6 +20,9 @@ ul {
     font-weight: bold;
 }
 
+li {
+    margin-bottom: 10px;
+}
 footer {
     margin-top: 100px;
     text-align: center;
