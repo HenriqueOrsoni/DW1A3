@@ -1,23 +1,30 @@
-main {
-   display: flex;
-}
 
-
-ul {
+ 
+ 
+ 
+ ul {
    display: flex;
    flex-direction: column;
-   margin-left: 370px;
-}
-
-#div2 {
-   margin: 15px;
-   margin-left: 90px;
-}
-#div1 {
-  color: white;
-}
-
-a {
+ }
+ 
+ 
+ #div2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+ #div1 {
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 102%;
+   flex-direction: column;
+ }
+ 
+ 
+ a {
    padding: 30px;
    margin: 5px 20px 5px 20px;
    font-size: 15px;
@@ -27,16 +34,16 @@ a {
    font-weight: bold;
    text-decoration: none;
    color: black;
-}
- 
-a:hover {
+ }
+ a:hover {
    cursor: pointer;
    color: white;
    background-color: rgb(18, 0, 68);
    transition: 0.7s;
-}
-
-body {
+ }
+ 
+ 
+ body {
    background-image: url(../components/imgs/background.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -45,23 +52,24 @@ body {
    display: flex;
    flex-direction: column;
    text-align: center;
-}
-
-p {
-  margin-right: 80px;
+ }
+ 
+ 
+ p {
   font-weight: bold;
-}
-
-#title {
-  margin-left: 30px;
-}
-
-h1 {
-   margin-right: 90px;
-}
-
-@media (min-width: 800px) {
+  margin-left: 12px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media (min-width: 800px) {
   html {
       font-size: 87.5%;
   }
-}
+ }
+ 
