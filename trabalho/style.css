@@ -239,7 +239,7 @@ td.expense {
 .modal {
     background: #F0F2f5;
     padding: 2.4rem;
-
+    border-radius: 2rem;
     position: relative;
     z-index: 1;
 }
