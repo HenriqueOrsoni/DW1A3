@@ -9,5 +9,13 @@ h1 {
 }
 
 body {
-    background-color: greenyellow;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid {
+    margin-top: -35px;
 }
