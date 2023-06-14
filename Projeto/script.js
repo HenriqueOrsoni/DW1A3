@@ -84,7 +84,7 @@ function analyze() {
     setTimeout(() => {
         playing.disabled = false
         clear()
-    }, 1000);
+    }, 2000);
 }
 
 function clear() {
