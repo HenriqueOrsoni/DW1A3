@@ -201,7 +201,7 @@ label {
     border: 2px solid var(--orange);
     border-radius: 10px;
     background-color: var(--yellow);
-    color: var(--dark);
+    color: var(--red);
     margin-top: 20px;
     font-size: 1rem;
     font-weight: 900;
