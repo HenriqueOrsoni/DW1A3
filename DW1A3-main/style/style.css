@@ -1,0 +1,68 @@
+ ul {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ 
+ #div2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+ #div1 {
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 102%;
+   flex-direction: column;
+ }
+ 
+ 
+ a {
+   padding: 30px;
+   width: 30vh;
+   margin: 5px 20px 5px 20px;
+   font-size: 15px;
+   background-color: white;
+   border-radius: 15px;
+   font-family: poppinsregular;
+   font-weight: bold;
+   text-decoration: none;
+   color: black;
+ }
+ a:hover {
+   cursor: pointer;
+   color: white;
+   background-color: rgb(18, 0, 68);
+   transition: 0.7s;
+ }
+ 
+ 
+ body {
+   background-image: url(../components/imgs/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   font-family: poppinsregular;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+ 
+ 
+ p {
+  font-weight: bold;
+  margin-left: 12px;
+ }
+
+ 
+
+ 
+ @media (min-width: 800px) {
+  html {
+      font-size: 87.5%;
+  }
+ }
+ 
